@@ -1,0 +1,203 @@
+.body {
+    margin: auto;
+}
+
+/*Kullanıcı resmi ve Aplikasyon butonu*/
+.userPic {
+    border-radius: 150px;
+    border: transparent;
+    margin: 5px;
+}
+
+.navigator-right {
+    align-items: center;
+    justify-content: flex-end;
+    margin: 12px 30px;
+    display: flex;
+    gap: 10px;
+}
+
+/*Navigatörler*/
+.nav1 {
+    text-align: left;
+    padding: 5px 0px;
+    margin: left auto;
+    text-decoration: solid;
+    color: #70757a;
+
+}
+.nav1:hover {
+    text-decoration: underline;
+}
+
+/* logo */
+.logo {
+    text-align: center;
+    margin: 150px auto 30px;
+}
+
+/*Konteynerler */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-right {
+    align-items: center;
+}
+
+.container-left {
+    align-items: center;
+    margin-top: 12px;
+    
+}
+
+.container-sb {
+    padding: 1px;
+    margin: 1px;
+}
+
+/*Search kısmı */
+.buttons {
+    text-align: center;
+}
+
+
+.googlesearch {
+    margin: 19px 4px;
+    padding: 6px 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.feelinglucky {
+    padding: 6px 16px;
+    margin: 19px 4px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    border-radius: 4px;
+}
+.googlesearch:hover{
+    box-shadow: 1px 1px 4px rgba(198, 197, 197, 0.929);
+}
+.feelinglucky:hover {
+    box-shadow: 1px 1px 4px rgba(198, 197, 197, 0.929);
+}
+
+
+
+input {
+    width: 100%;
+    border: none !important;
+    font-size: 18px;
+    outline: none;
+}
+
+.input-container:hover {
+    box-shadow: 1px 1px 4px rgba(198, 197, 197, 0.929);
+}
+
+/*Footer */
+.footer {
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footerli {
+    float: left;
+    list-style-type: none;
+}
+
+.footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+}
+
+.footerli a:hover {
+    text-decoration: underline;
+}
+
+.search-image {
+    position: relative;
+}
+
+.input-container {
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 18px;
+    padding: 10px 15px;
+    /* padding: 17px 5; */
+    border-radius: 20px;
+    margin: 6px auto 0 auto;
+    align-items: center;
+    display: flex;
+    width: 480px;
+    height: 23px;
+    transition: all 0.1s ease;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.search-icon {
+    height: 100%;
+    display: flex;
+    margin: 0 5px 0 0;
+    }
+    .search-mic {
+        height: 100%;
+        display: flex;
+        margin: 0 5px 0 0;
+}
+.search-lens {
+    height: 100%;
+    display: flex;
+    margin: 0 5px 0 0;
+}
+.footerliler {
+    border-top: 1px solid #dadce0; 
+    padding: 10px;
+}
+
+.footerliler-top {
+    padding: 14px 25px;
+    color: #70757a;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid #dadce0;;
+    
+}
